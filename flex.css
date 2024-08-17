@@ -1,0 +1,49 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.item{
+    
+    height: 100px;
+    width: 100px;
+       color: white;
+       background-color: blue;
+       margin: 50px;
+       padding: 20px;
+       border: 3px solid black;
+
+
+}
+
+.itemA{
+    order: 0
+}
+
+.itemB{
+    order: -1;
+    /* flex-grow: 5; */
+    flex-shrink: 3;
+
+}
